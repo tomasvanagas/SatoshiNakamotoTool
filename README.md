@@ -14,4 +14,4 @@ Executables
 -----------
 
 Version 1.0:
-https://github.com/tomasvanagas/SatoshiNakamotoTool/raw/master/SatoshiNakamotoTool/bin/Release/SatoshiNakamotoTool.exe
+[SatoshiNakamotoTool.exe](https://github.com/tomasvanagas/SatoshiNakamotoTool/raw/master/SatoshiNakamotoTool/bin/Release/SatoshiNakamotoTool.exe)
