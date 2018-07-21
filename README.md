@@ -8,8 +8,8 @@ forever.
 License
 -------
 
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
+Satoshi Nakamoto Tool is released under the terms of the MIT license. For more
+information see https://opensource.org/licenses/MIT.
 
 Executable
 -----------
