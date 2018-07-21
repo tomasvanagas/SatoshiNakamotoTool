@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SatoshiNakamotoTool"
         mc:Ignorable="d"
-        Title="Satoshi Nakamoto Tool" Height="450" Width="800">
+        Title="Satoshi Nakamoto Tool" Height="322" Width="566">
     <Grid>
         <Menu Height="20" VerticalAlignment="Top">
             <MenuItem Header="File">
@@ -15,5 +15,31 @@
         <StatusBar Height="20" VerticalAlignment="Bottom" >
             <TextBlock TextWrapping="Wrap" Text="(C) Satoshi Nakamoto, Tomas Vanagas"/>
         </StatusBar>
+
+        <TabControl Margin="10,25">
+            <TabItem Header="Upload To Blockchain">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="193*"/>
+                        <RowDefinition Height="238*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+            <TabItem Name="menuTabs" Header="Download From Blockchain">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="193*"/>
+                        <RowDefinition Height="238*"/>
+                    </Grid.RowDefinitions>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
     </Grid>
 </Window>
