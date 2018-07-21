@@ -1,8 +1,9 @@
 What is Satoshi Nakamoto Tool?
 ------------------------------
 
-Satoshi Nakamoto Tool is experimental tool to upload and download files in to
-blockchain.
+Satoshi Nakamoto Tool is experimental tool to upload and download files in and out of
+blockchain. All uploaded files are replicated on thousands of computers and stuck there
+forever.
 
 License
 -------
