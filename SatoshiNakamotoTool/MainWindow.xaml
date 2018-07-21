@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SatoshiNakamotoTool"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Satoshi Nakamoto Tool" Height="450" Width="800">
     <Grid>
-        
+        <Menu Height="20" VerticalAlignment="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Exit" Click="Exit_Click" />
+            </MenuItem>
+        </Menu>
+        <StatusBar Height="20" VerticalAlignment="Bottom" >
+            <TextBlock TextWrapping="Wrap" Text="(C) Satoshi Nakamoto, Tomas Vanagas"/>
+        </StatusBar>
     </Grid>
 </Window>

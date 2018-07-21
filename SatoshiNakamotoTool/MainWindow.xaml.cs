@@ -24,5 +24,10 @@ namespace SatoshiNakamotoTool
         {
             InitializeComponent();
         }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
